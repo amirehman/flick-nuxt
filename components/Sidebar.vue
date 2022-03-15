@@ -1,0 +1,28 @@
+<template>
+  <div>
+    <div class="sidebar w-72 h-screen border-r border-gray-400">
+
+      <div class="logo flex items-center h-16 justify-center border-b border-gray-400 tracking-wider">
+        <span class="text-2xl font-bold text-gray-700">
+          Flick <small class="uppercase font-semibold text-sm text-gray-500">Admin Panel</small>
+        </span>
+      </div>
+      <!-- logo -->
+
+      <Navbar />
+
+    </div>
+    <!-- sidebar -->
+
+  </div>
+</template>
+
+<script>
+  export default {
+
+  }
+</script>
+
+<style lang="scss" scoped>
+
+</style>
